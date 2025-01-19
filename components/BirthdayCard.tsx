@@ -38,21 +38,19 @@ export default function BirthdayCard() {
         style={{ backfaceVisibility: "hidden" }}
       >
         <div className="p-6 space-y-4">
-          <h2 className="text-3xl font-bold">Dear Scott,</h2>
+          <h2 className="text-3xl font-bold">Hey Scott,</h2>
           <p className="text-lg leading-relaxed">
-            Thank you for all the incredible adventures and memories we&apos;ve
-            shared. It has been an amazing few months already!
+            Thanks for all the awesome adventures and memories we've had. It's been an amazing few months already!
           </p>
           <p className="text-lg leading-relaxed">
-            To celebrate you milestone, here&apos;s a gift for you! Tap the gift
-            box below to reveal it.
+            To celebrate your milestone, here's a gift for you! Tap the gift box below to check it out.
           </p>
           <GiftReveal
             isRevealed={isGiftRevealed}
             setIsRevealed={setIsRevealed}
           />
           <p className="text-lg font-bold">
-            With gratitude,
+            Cheers,
             <br />
             Jonathan
           </p>
