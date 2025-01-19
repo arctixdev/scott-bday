@@ -1,5 +1,5 @@
 {
-  "name": "scott-gift",
+  "name": "scott-minimalistic-birthday-card",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.16"
+    "next": "15.1.5",
+    "react": "^19",
+    "react-dom": "^19",
+    "motion": "^11.18.1",
+    "lucide-react": "^0.473.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.16"
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }
+
